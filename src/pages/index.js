@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 const Home = () => {
   return (
-    <div>
+    <div className="container">
       <h1> Hello world!</h1>
     </div>
   )
