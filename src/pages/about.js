@@ -1,7 +1,8 @@
 import React from "react"
+import Layout from "../components/Layout"
 
 const About = () => {
-  return <div>lorem.3</div>
+  return <Layout>lorem.3</Layout>
 }
 
 export default About
