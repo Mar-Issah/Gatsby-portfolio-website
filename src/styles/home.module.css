@@ -1,0 +1,13 @@
+.background {
+  background: linear-gradient(rgba(184, 110, 81, 0.2), rgba(94, 53, 37, 0.3)),
+    url("https://res.cloudinary.com/dytnpjxrd/image/upload/v1640908967/pexels-burst-374147_gwpgbd.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+}
+
+.coffee {
+  color: rgb(94, 53, 37);
+}

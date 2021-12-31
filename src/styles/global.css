@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,700;1,300;1,400&family=Montserrat:wght@300;400;500&family=Oswald:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+/* body {
+  
+  background-image: url("https://res.cloudinary.com/dytnpjxrd/image/upload/v1640893900/homepage_bg_rl4nbe.jpg"),
+    linear-gradient(rgba(184, 110, 81, 1) , rgba(94, 53, 37, 1) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+nav {
+  position: fixed;
+  width: 100vw;
+  height: 65px;
+  background: radial-gradient(
+    at top left,
+    rgba(184, 110, 81, 1) 0%,
+    rgba(94, 53, 37, 1) 100%
+  );
+}
+
+nav ul li {
+  margin: 0 0.85rem !important;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.active:focus {
+  font-weight: 800 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #b57660 !important;
+}
