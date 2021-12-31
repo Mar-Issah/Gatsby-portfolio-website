@@ -43,3 +43,8 @@ nav ul li {
 .navbar-light .navbar-nav .nav-link:hover {
   color: #b57660 !important;
 }
+
+.img {
+  position: absolute;
+  top: -20px;
+}
