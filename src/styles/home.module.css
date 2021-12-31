@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 90vh;
+  padding-top: 50px;
 }
 
 .coffee {
@@ -13,4 +14,19 @@
   text-transform: uppercase !important;
   letter-spacing: 5px;
   font-weight: 800;
+}
+
+.btnPrimary {
+  background-color: rgb(94, 53, 37) !important;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border-color: transparent;
+  margin-top: 20px;
+  transition: 0.2s ease-in-out;
+  color: #e3e4e6;
+}
+
+.btnPrimary:hover {
+  background: #b57660 !important;
+  color: #e3e4e6;
 }
