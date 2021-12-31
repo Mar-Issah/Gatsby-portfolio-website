@@ -1,6 +1,6 @@
 ---
 title: Coffee Business
-stack: HTML & CSS
+stack: Our coffee is not for everybody
 slug: coffee-business
 ---
 

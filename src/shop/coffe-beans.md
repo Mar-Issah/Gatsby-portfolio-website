@@ -1,6 +1,6 @@
 ---
 title: Coffee Beans
-stack: HTML & CSS
+stack: Power up with coffee
 slug: coffee-beans
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: The Grind House
-stack: HTML & CSS
+stack: Power up with coffee
 slug: the-grind-house
 ---
 

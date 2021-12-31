@@ -1,6 +1,6 @@
 ---
 title: The Coffee House
-stack: HTML & CSS
+stack: Hot and fresh coffee all around
 slug: the-coffee-house
 ---
 

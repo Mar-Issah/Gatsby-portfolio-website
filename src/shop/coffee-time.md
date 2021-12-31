@@ -1,6 +1,6 @@
 ---
 title: Coffee Time
-stack: HTML & CSS
+stack: Wake up your taste buds
 slug: coffee-time
 ---
 

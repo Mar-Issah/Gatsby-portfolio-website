@@ -1,6 +1,6 @@
 ---
 title: The Coffee Club
-stack: HTML & CSS
+stack: Drink it black
 slug: the-coffee-club
 ---
 
