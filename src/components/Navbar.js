@@ -22,7 +22,7 @@ const Navbar = () => {
             </li>
             <li class="nav-item ms-4">
               <Link class="nav-link" href="/projects">
-                Projects
+                Coffee Shop
               </Link>
             </li>
           </ul>
