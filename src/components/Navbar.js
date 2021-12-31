@@ -6,10 +6,7 @@ const Navbar = () => {
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
       <div class="container">
         <Link class="navbar-brand" to="/">
-          <img
-            src="/static/cup-icon-food-and-drink-icon-coffee-icon-SMXyTgXU_car8pd.jpg"
-            alt="logo"
-          />
+          <img src="www.freepnglogos.com/pics/coffee-logo-png" alt="logo" />
         </Link>
         <div class="links">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
