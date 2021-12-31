@@ -10,7 +10,7 @@ import { Link } from "gatsby"
 const Home = () => {
   return (
     <Layout>
-      <section className={background}>
+      <section className={header}>
         <Container>
           <h1 style={{ color: "#e3e4e6" }}>Start your day</h1>
           <h1 style={{ color: "#e3e4e6" }}>

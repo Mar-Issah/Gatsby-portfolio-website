@@ -1,4 +1,4 @@
-.background {
+.header {
   background: linear-gradient(rgba(184, 110, 81, 0.2), rgba(94, 53, 37, 0.3)),
     url("https://res.cloudinary.com/dytnpjxrd/image/upload/v1640908967/pexels-burst-374147_gwpgbd.jpg");
 
@@ -9,14 +9,14 @@
   padding-top: 50px;
 }
 
-.coffee {
+.header > .coffee {
   color: rgb(94, 53, 37) !important;
   text-transform: uppercase !important;
   letter-spacing: 5px;
   font-weight: 800;
 }
 
-.btnPrimary {
+.header > .btnPrimary {
   background-color: rgb(94, 53, 37) !important;
   padding: 10px 15px;
   border-radius: 6px;
