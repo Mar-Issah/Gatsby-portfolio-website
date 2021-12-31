@@ -1,6 +1,6 @@
 ---
 title: The Coffee House
-stack: Hot and fresh coffee all around
+slogan: Hot and fresh coffee all around
 slug: the-coffee-house
 ---
 

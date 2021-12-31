@@ -1,6 +1,6 @@
 ---
 title: Coffee Time
-stack: Wake up your taste buds
+slogan: Wake up your taste buds
 slug: coffee-time
 ---
 

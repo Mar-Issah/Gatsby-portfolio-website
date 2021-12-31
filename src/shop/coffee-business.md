@@ -1,6 +1,6 @@
 ---
 title: Coffee Business
-stack: Our coffee is not for everybody
+slogan: Our coffee is not for everybody
 slug: coffee-business
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Coffee Beans
-stack: Power up with coffee
+slogan: Power up with coffee
 slug: coffee-beans
 ---
 

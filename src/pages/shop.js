@@ -12,7 +12,7 @@ const Shop = ({ data }) => {
         <Link to={`/shop/${item.frontmatter.slug}`} key={item.id}>
           <div>
             <h3>{item.frontmatter.title}</h3>
-            <p>{item.frontmatter.stack}</p>
+            <p>{item.frontmatter.slogan}</p>
           </div>
         </Link>
       ))}

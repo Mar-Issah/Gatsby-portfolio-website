@@ -1,6 +1,6 @@
 ---
 title: The Coffee Club
-stack: Drink it black
+slogan: Drink it black
 slug: the-coffee-club
 ---
 

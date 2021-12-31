@@ -1,6 +1,6 @@
 ---
 title: The Grind House
-stack: Power up with coffee
+slogan: Power up with coffee
 slug: the-grind-house
 ---
 
