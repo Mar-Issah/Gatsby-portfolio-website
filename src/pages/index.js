@@ -5,12 +5,14 @@ import Layout from "../components/Layout"
 import { header, coffee, btnPrimary } from "../styles/home.module.css"
 import Typed from "react-typed"
 import { Container } from "react-bootstrap"
-import { Link } from "gatsby"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 const Home = ({ data }) => {
   //data coming in from the graphQl query
   console.log(data)
+
+  const { description } = data.site.siteMetadata
+  //can be use anywhere in the page
   return (
     <Layout>
       <section className={header}>
@@ -28,8 +30,8 @@ const Home = ({ data }) => {
             </span>
           </h1>
           <button className={btnPrimary}>
-            <Link className="nav-link" href="/shop">
-              My Coffee Shop
+            <Link className="nav-link" to="/shop">
+              {description}
             </Link>
           </button>
         </Container>
@@ -43,9 +45,7 @@ export const query = graphql`
   query SiteInfo {
     site {
       siteMetadata {
-        author
         description
-        title
       }
     }
   }
