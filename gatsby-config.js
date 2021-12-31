@@ -5,6 +5,15 @@
  */
 
 module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `notes`,
+        path: `${__dirname}/src/notes/`, //look into the notes folder
+      },
+    },
+  ],
   siteMetadata: {
     author: "Marsiya",
     title: "Siya Gatsby Website",
