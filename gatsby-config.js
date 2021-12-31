@@ -5,7 +5,9 @@
  */
 
 module.exports = {
+  /* Your site config here */
   plugins: [
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -20,11 +22,4 @@ module.exports = {
     description: `My coffee shop`,
     copyright: "This is a copyright 2021 Marsiya Issah",
   },
-  /* Your site config here */
-  // plugins: [`gatsby-plugin-typography`],
-  // plugins: [
-  //   {
-  //     resolve: `gatsby-plugin-typography`,
-  //   },
-  // ],
 }
