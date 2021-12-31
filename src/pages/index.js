@@ -6,8 +6,11 @@ import { header, coffee, btnPrimary } from "../styles/home.module.css"
 import Typed from "react-typed"
 import { Container } from "react-bootstrap"
 import { Link } from "gatsby"
+import { graphql } from "gatsby"
 
-const Home = () => {
+const Home = ({ data }) => {
+  //data coming in from the graphQl query
+  console.log(data)
   return (
     <Layout>
       <section className={header}>
@@ -25,7 +28,7 @@ const Home = () => {
             </span>
           </h1>
           <button className={btnPrimary}>
-            <Link class="nav-link" href="/shop">
+            <Link className="nav-link" href="/shop">
               My Coffee Shop
             </Link>
           </button>
@@ -34,5 +37,16 @@ const Home = () => {
     </Layout>
   )
 }
-
 export default Home
+
+export const query = graphql`
+  query SiteInfo {
+    site {
+      siteMetadata {
+        author
+        description
+        title
+      }
+    }
+  }
+`

@@ -3,8 +3,8 @@ import React from "react"
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-      <div class="container">
+    <nav className="navbar navbar-expand-lg navbar-light sticky-top">
+      <div className="container">
         <Link
           href="https://www.freepnglogos.com/pics/coffee-logo-png"
           title="Image from freepnglogos.com"
@@ -16,20 +16,20 @@ const Navbar = () => {
             alt="coffee logo design creative idea logo elements"
           />
         </Link>
-        <div class="links">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <Link class="nav-link active" aria-current="page" href="/">
+        <div className="links">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" href="/">
                 Home
               </Link>
             </li>
-            <li class="nav-item ms-4">
-              <Link class="nav-link" href="/about">
+            <li className="nav-item ms-4">
+              <Link className="nav-link" href="/about">
                 About
               </Link>
             </li>
-            <li class="nav-item ms-4">
-              <Link class="nav-link" href="/shop">
+            <li className="nav-item ms-4">
+              <Link className="nav-link" href="/shop">
                 Coffee Shop
               </Link>
             </li>
