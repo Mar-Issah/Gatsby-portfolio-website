@@ -9,6 +9,8 @@
 }
 
 .coffee {
-  color: rgb(94, 53, 37);
-  text-transform: capitalize;
+  color: rgb(94, 53, 37) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px;
+  font-weight: 800;
 }
