@@ -10,4 +10,5 @@
 
 .coffee {
   color: rgb(94, 53, 37);
+  text-transform: capitalize;
 }
