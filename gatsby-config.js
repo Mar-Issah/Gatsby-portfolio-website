@@ -21,5 +21,6 @@ module.exports = {
     title: "Siya Gatsby Website",
     description: `My coffee shop`,
     copyright: "This is a copyright 2021 Marsiya Issah",
+    contact: "masy370@gmail.com",
   },
 }
