@@ -1,21 +1,26 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { graphql, Link } from "gatsby"
+import { projects, container } from "../styles/shop.module.css"
 
 const Shop = ({ data }) => {
   //to get the nodes array of frontmatter and id
   const items = data.allMarkdownRemark.nodes
   return (
     <Layout>
-      <h1>Shop</h1>
-      {items.map(item => (
-        <Link to={`/shop/${item.frontmatter.slug}`} key={item.id}>
-          <div>
-            <h3>{item.frontmatter.title}</h3>
-            <p>{item.frontmatter.slogan}</p>
-          </div>
-        </Link>
-      ))}
+      <div className={container}>
+        <h1>Start your day by choosing the perfect coffee</h1>
+        <div className={projects}>
+          {items.map(item => (
+            <Link to={`/shop/${item.frontmatter.slug}`} key={item.id}>
+              <div>
+                <h3>{item.frontmatter.title}</h3>
+                <p>{item.frontmatter.slogan}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
     </Layout>
   )
 }
@@ -26,7 +31,7 @@ export const query = graphql`
     allMarkdownRemark {
       nodes {
         frontmatter {
-          stack
+          slogan
           title
           slug
         }
