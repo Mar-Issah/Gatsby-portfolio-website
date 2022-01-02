@@ -13,7 +13,7 @@ body {
 }
 a {
   text-decoration: none;
-  /* color: #e3e4e6 !important; */
+  color: #e3e4e6 !important;
 }
 
 nav {
@@ -33,6 +33,10 @@ nav ul li {
   transition: all 0.3s ease-in-out;
   height: 100%;
   color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #e3e4e6 !important;
 }
 
 .navbar-light .navbar-nav .nav-link.active,

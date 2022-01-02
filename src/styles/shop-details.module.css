@@ -2,6 +2,7 @@
   min-height: 100vh;
   background: rgba(184, 110, 81, 1);
   padding: 40px 80px;
+  color: #e3e4e6 !important;
 }
 .shop h4 {
   padding: 10px 10px;
