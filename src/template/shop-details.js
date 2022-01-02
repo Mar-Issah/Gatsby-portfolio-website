@@ -17,22 +17,3 @@ const ShopDetail = ({data}) => {
 }
 
 export default ShopDetail
-
-export const query = graphql`
-  query MyShopQuery {
-    allMarkdownRemark {
-      nodes {
-        frontmatter {
-          thumb {
-            childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-        id
-      }
-    }
-  }
-`
