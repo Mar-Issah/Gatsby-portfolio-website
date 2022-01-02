@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
-import { projects, container } from "../styles/shop.module.css"
+import { projects, container, image } from "../styles/shop.module.css"
 
 const Shop = ({ data }) => {
   //to get the nodes array of frontmatter and id
@@ -18,7 +18,10 @@ const Shop = ({ data }) => {
           {items.map(item => (
             <Link to={`/shop/${item.frontmatter.slug}`} key={item.id}>
               <div>
-                <Img fluid={item.frontmatter.thumb.childImageSharp.fluid} />
+                <Img
+                  className={image}
+                  fluid={item.frontmatter.thumb.childImageSharp.fluid}
+                />
                 <h3>{item.frontmatter.title}</h3>
                 <p>{item.frontmatter.slogan}</p>
               </div>

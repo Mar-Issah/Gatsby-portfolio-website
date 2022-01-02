@@ -28,3 +28,12 @@
   text-align: center;
   color: #e3e4e6 !important;
 }
+
+.projects .image {
+  border-radius: 4px;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.14),
+    0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+.projects .image:hover {
+  border: 1px solid #000;
+}
