@@ -7,7 +7,7 @@ import { projects, container, image } from "../styles/shop.module.css"
 const Shop = ({ data }) => {
   //to get the nodes array of frontmatter and id
   const items = data.allMarkdownRemark.nodes
-  console.log(data)
+
   return (
     <Layout>
       <div className={container}>

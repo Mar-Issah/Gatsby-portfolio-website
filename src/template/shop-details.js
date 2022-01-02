@@ -23,9 +23,6 @@ const ShopDetail = ({ data }) => {
 
 export default ShopDetail
 
-//html returns the markdown lorem text
-//we are querying using the slug varaible to return dynamic pages based on selection
-//it will search through the md files and return once matching the slug text
 export const query = graphql`
   query ShopDetails($slug: String) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {

@@ -4,6 +4,10 @@
   padding: 40px 80px;
   color: #e3e4e6 !important;
 }
+.shop h2 {
+  padding-left: 10px;
+}
+
 .shop h4 {
   padding: 10px 10px;
 }

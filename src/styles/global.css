@@ -19,7 +19,9 @@ a {
 nav {
   position: fixed;
   width: 100vw;
-  height: 65px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
   background: radial-gradient(
     at top left,
     rgba(184, 110, 81, 1) 0%,
@@ -27,6 +29,23 @@ nav {
   );
 }
 
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  margin: 0;
+}
+@media only screen and (min-width: 430px) {
+  nav {
+    height: 65px;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+}
 nav ul li {
   margin: 0 0.85rem !important;
   text-transform: uppercase;
@@ -39,8 +58,7 @@ nav ul li {
   color: #e3e4e6 !important;
 }
 
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.active:focus {
+.navbar-light .navbar-nav .nav-link.active {
   font-weight: 800 !important;
 }
 
