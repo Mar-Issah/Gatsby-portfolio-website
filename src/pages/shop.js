@@ -11,7 +11,9 @@ const Shop = ({ data }) => {
   return (
     <Layout>
       <div className={container}>
-        <h1>Start your day by choosing the perfect coffee</h1>
+        <h1>Start your day by choosing </h1>
+        <br />
+        <h3>the perfect coffee :-)</h3>
         <div className={projects}>
           {items.map(item => (
             <Link to={`/shop/${item.frontmatter.slug}`} key={item.id}>
