@@ -1,0 +1,12 @@
+.shop {
+  min-height: 100vh;
+  background: rgba(184, 110, 81, 1);
+  padding: 40px 80px;
+}
+.shop h4 {
+  padding: 10px 10px;
+}
+
+.shop img {
+  padding-bottom: 30px;
+}
