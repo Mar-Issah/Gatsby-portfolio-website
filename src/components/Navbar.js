@@ -3,17 +3,17 @@ import React from "react"
 
 const Navbar = () => {
   // how to query in a component
-  const data = useStaticQuery(graphql`
-    query SiteInfoNavbar {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-  const { title } = data.site.siteMetadata
-  console.log(title) //siya gatsby webite
+  // const data = useStaticQuery(graphql`
+  //   query SiteInfoNavbar {
+  //     site {
+  //       siteMetadata {
+  //         title
+  //       }
+  //     }
+  //   }
+  // `)
+  // const { title } = data.site.siteMetadata
+  // console.log(title) //siya gatsby webite
   return (
     <nav className="navbar navbar-expand-lg navbar-light sticky-top">
       <div className="container">
