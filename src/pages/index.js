@@ -7,7 +7,7 @@ import Typed from "react-typed"
 import { Container } from "react-bootstrap"
 import { Link } from "gatsby"
 
-const Home = ({ data }) => {
+const Home = () => {
   //data coming in from the graphQl query
   // const { description } = data.site.siteMetadata
   //can be use anywhere in the page
