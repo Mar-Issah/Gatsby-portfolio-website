@@ -1,21 +1,7 @@
 import { Link, graphql, useStaticQuery } from "gatsby"
-import React, { useEffect } from "react"
-import { document } from "browser-monads"
+import React from "react"
 
 const Navbar = () => {
-  useEffect(() => {
-    const currurl = window.location.pathname
-    const links = [...document.getElementsByClassName("nav-link")]
-    links.forEach(link => {
-      if (link.getAttribute("href") === currurl) {
-        document
-          .getElementsByClassName("nav-link active")[0]
-          .classList.remove("active")
-        link.classList.add("active")
-      }
-    })
-  })
-
   // how to query in a component
   const data = useStaticQuery(graphql`
     query SiteInfoNavbar {
@@ -45,11 +31,7 @@ const Navbar = () => {
         <div className="links">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link
-                className="nav-link active text-center"
-                aria-current="page"
-                to="/"
-              >
+              <Link className="nav-link text-center" aria-current="page" to="/">
                 Home
               </Link>
             </li>
