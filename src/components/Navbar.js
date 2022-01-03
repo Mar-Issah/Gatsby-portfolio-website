@@ -1,5 +1,6 @@
 import { Link, graphql, useStaticQuery } from "gatsby"
 import React, { useEffect } from "react"
+import { document } from "browser-monads"
 
 const Navbar = () => {
   useEffect(() => {
