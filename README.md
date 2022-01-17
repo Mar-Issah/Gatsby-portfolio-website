@@ -1,4 +1,4 @@
-# Coffee Shop website
+# Coffee Shop Website
 
 A simple website built with Gatsby.js.
 
